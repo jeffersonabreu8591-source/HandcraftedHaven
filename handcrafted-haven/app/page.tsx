@@ -1,4 +1,4 @@
-import Navbar from "@/components/NavBar";
+import NavBar from "@/components/NavBar";
 import Hero from "@/components/Hero";
 import { Categories } from "@/components/Categories";
 
@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 export default function HomePage() {
   return (
     <main>
-      <Navbar />
+      <NavBar />
       <Hero />
       <Categories />
       <FeaturedProducts />

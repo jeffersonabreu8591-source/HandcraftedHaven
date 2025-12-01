@@ -3,7 +3,7 @@ import { ShoppingCart, Search, User, Heart, Menu } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
 
-export default function Navbar() {
+export default function NavBar() {
   const [open, setOpen] = useState(false);
 
   return (
